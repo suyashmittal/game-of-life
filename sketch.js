@@ -140,7 +140,4 @@ function mousePressed() {
   if (grid[row][col] === 0) {
     grid[row][col] = 1;
   }
-  else if (grid[row][col] === 1) {
-    grid[row][col] = 0;
-  }
 }
